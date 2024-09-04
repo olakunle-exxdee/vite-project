@@ -37,7 +37,7 @@ export default function Navbar() {
         <nav
           className='bg-white flex items-center justify-center p-6 lg:px-8'
           aria-label='Global'>
-          <div className='flex w-96 lg:hidden'>
+          <div className='mr-auto lg:hidden'>
             <button
               type='button'
               className='-m-2.5 inline-flex items-start justify-start rounded-md p-2.5 text-gray-700'
@@ -125,7 +125,7 @@ export default function Navbar() {
         <div className='py-24 sm:py-32 lg:pb-40'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
-              <h1 className='text-6xl font-bold font-plusJakartaSans tracking-tight text-gray-900 sm:text-6xl'>
+              <h1 className='text-6xl font-bold font-plusJakartaSans tracking-normal leading-1 text-gray-900 sm:text-6xl'>
                 A powerful online engagement tool that’s intuitive and simple to
                 use.
               </h1>
