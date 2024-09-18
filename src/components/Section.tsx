@@ -16,11 +16,11 @@ export default function Section() {
               <span className='font-normal'>Tool </span> built for people.
             </h1>
           </>
-          <p className='text-base font-plusJakartaSans '>
+          <p className='text-base font-plusJakartaSans text-[#676767]'>
             Whether you want to edit your Google Docs, resolve Jira issues, or
             collaborate over Zoom.
           </p>
-          <p className='mt-6 text-base font-plusJakartaSans  '>
+          <p className='mt-6 text-base font-plusJakartaSans text-[#676767]'>
             Whether you want to edit your Google Docs, resolve Jira issues, or
             collaborate over Zoom. Circle has 100+ integrations with tools you
             already use and love.
