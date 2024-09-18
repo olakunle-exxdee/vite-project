@@ -5,7 +5,7 @@ import Section from './components/Section';
 
 const App = () => {
   return (
-    <div>
+    <div className='sm:px-2'>
       <Navbar />
       <Company />
       <Section />

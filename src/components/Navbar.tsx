@@ -125,7 +125,7 @@ export default function Navbar() {
         <div className='py-24 sm:py-32 lg:pb-40'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
-              <h1 className='text-6xl font-bold font-plusJakartaSans tracking-normal leading-1 text-gray-900 sm:text-6xl'>
+              <h1 className='text-4xl font-bold font-plusJakartaSans tracking-normal leading-1 text-gray-900 xl:text-6xl'>
                 A powerful online engagement tool that’s intuitive and simple to
                 use.
               </h1>

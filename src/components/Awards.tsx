@@ -46,18 +46,18 @@ const awardees = [
 
 const Awards = () => {
   return (
-    <div className='w-[900px] my-52 mx-auto'>
+    <div className='my-52'>
       <div className='text-center mb-14'>
         <p className='inline text-[8px] uppercase font-bold text-cyan-400  bg-cyan-50 px-2.5 py-1.5 rounded-2xl'>
           Awards
         </p>
 
-        <h1 className='text-[28px] mb-5 mt-3 font-bold font-plusJakartaSans'>
+        <h1 className='text-base xl:text-[28px] mb-5 mt-3 font-bold font-plusJakartaSans'>
           <span className='font-normal'>An</span> award winning{' '}
           <span className='font-normal'>platform</span>, loved by customers.
         </h1>
       </div>
-      <div className='grid grid-cols-1  gap-4  sm:grid-cols-3'>
+      <div className='grid grid-cols-1 mx-10 gap-4 xl:grid-cols-3'>
         {awardees.map((awardee, index) => (
           <div
             key={index}
