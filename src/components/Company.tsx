@@ -10,9 +10,10 @@ const Company = () => {
   return (
     <div className='font-plusJakartaSans bg-white py-24 sm:py-32'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-        <p className='text-center text-xs bg-cyan-100 font-black text-cyan-400 leading-8 w-28 m-auto rounded-2xl'>
+        <p className='text-center uppercase text-xs bg-cyan-50 font-black text-cyan-400 leading-8 w-32 m-auto rounded-2xl'>
           Our Customers
         </p>
+
         <h2 className='text-center text-3xl  leading-8 text-gray-900 mt-4'>
           Trusted by <span className='font-semibold'>100,000+ customers</span>{' '}
           in 90+ countries

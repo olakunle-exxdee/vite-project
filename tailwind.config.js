@@ -18,6 +18,12 @@ module.exports = {
     },
     extend: {
       colors: {
+        award1: '#FFF5F3',
+        award2: '#FFF0F9',
+        award3: '#ECFFFF',
+        award4: '#F6F4FF',
+        award5: '#FFF9E7',
+        award6: '#FFEDE4',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
