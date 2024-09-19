@@ -13,30 +13,61 @@ const navigation = [
     href: '#',
     icon: BuildingOffice2Icon,
     current: true,
-    component: SidebarChild,
+    component: () => (
+      <SidebarChild
+        title='Create'
+        subheading='Innovative Survey Creation'
+        description='Ask the right questions and get the answers you need with the most secure and collaborative survey platform on the market featuring powerful logic, sophisticated analytics, and built-in automation and integration.'
+        buttonText='Get started free'
+      />
+    ),
   },
   {
     name: 'Distribute',
     href: '#',
     icon: SparklesIcon,
     current: false,
-    component: SidebarChild,
+    component: () => (
+      <SidebarChild
+        title='Distribute'
+        subheading='Effective Distribution Tools'
+        description='Distribute your surveys easily and reach your audience effectively with our powerful distribution tools.'
+        buttonText='Learn more'
+      />
+    ),
   },
   {
     name: 'Collect',
     href: '#',
     icon: NewspaperIcon,
     current: false,
-    component: SidebarChild,
+    component: () => (
+      <SidebarChild
+        title='Collect'
+        subheading='Efficient Data Collection'
+        description='Collect responses efficiently and analyze the data with our advanced collection tools.'
+        buttonText='Start collecting'
+      />
+    ),
   },
   {
     name: 'Analyse',
     href: '#',
     icon: ChartPieIcon,
     current: false,
-    component: SidebarChild,
+    component: () => (
+      <SidebarChild
+        title='Analyse'
+        subheading='Advanced Data Analysis'
+        description='Analyze your survey data with our sophisticated analytics tools and gain valuable insights.'
+        buttonText='Analyze now'
+      />
+    ),
   },
 ];
+function classNames(...classes: string[]) {
+  return classes.filter(Boolean).join(' ');
+}
 
 export default function Sidebar() {
   const [selectedItem, setSelectedItem] = useState(
@@ -112,11 +143,9 @@ export default function Sidebar() {
           ))}
         </ul>
       </nav>
-      {selectedItem && (
-        <div className='mt-4 bg-cyan-100'>
-          <selectedItem.component />
-        </div>
-      )}
+      {selectedItem ? (
+        <div className='mt-4 bg-cyan-100'>{selectedItem.component()}</div>
+      ) : null}
     </div>
   );
 }
