@@ -144,7 +144,7 @@ export default function Sidebar() {
         </ul>
       </nav>
       {selectedItem ? (
-        <div className='mt-4 bg-cyan-100'>{selectedItem.component()}</div>
+        <div className='mt-4 bg-[#EDFEFF]'>{selectedItem.component()}</div>
       ) : null}
     </div>
   );

@@ -1,8 +1,11 @@
 import Awards from './components/Awards';
+import Blogs from './components/Blogs';
 import Company from './components/Company';
 import Navbar from './components/Navbar';
 import Section from './components/Section';
 import Sidebar from './components/SIdebar';
+import Testimony from './components/Testimony';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Section />
       <Awards />
       <Sidebar />
+      <Testimony />
+      <Blogs />
+      <Footer />
     </div>
   );
 };
