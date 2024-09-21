@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='sm:px-2'>
+    <div className=' mx-auto sm:px-2'>
       <Navbar />
       <Company />
       <Section />

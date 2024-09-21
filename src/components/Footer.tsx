@@ -24,6 +24,12 @@ const navigation = {
     { name: 'Team', href: '#' },
     { name: 'Contact Us', href: '#' },
   ],
+  footer: [
+    { name: 'Privacy Policy', href: '#' },
+    { name: 'Data & Security', href: '#' },
+    { name: 'Terms of Service', href: '#' },
+    { name: 'Data & Security', href: '#' },
+  ],
 };
 
 export default function Example() {
@@ -34,7 +40,7 @@ export default function Example() {
       </h2>
       <div className='mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32'>
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
-          <div className='space-y-8 relative'>
+          <div className=' ml-4 space-y-8 relative'>
             <img className='h-24' src={san} alt='Circle' />
             <p className='text-sm leading-6 text-gray-300 absolute inset-0 transform -translate-x-8'>
               Made with lots of ❤️ in San Francisco
@@ -100,12 +106,12 @@ export default function Example() {
             &copy; 2024 Circle. All rights reserved.
           </p>
           <ul role='list' className='mt-6 space-x-4 flex'>
-            {navigation.company.map((item) => (
+            {navigation.footer.map((item) => (
               <li key={item.name}>
                 <a
                   href={item.href}
                   className='text-sm leading-6 text-gray-300 hover:text-white'>
-                  {item.name === 'About' ? '' : '|'} {item.name}
+                  {item.name === 'Privacy Policy' ? '' : '|'} {item.name}
                 </a>
               </li>
             ))}
