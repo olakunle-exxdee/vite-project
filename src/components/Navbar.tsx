@@ -67,7 +67,7 @@ export default function Navbar() {
             ))}
             <a
               href='#'
-              className='font-plusJakartaSans  py-2 px-14 text-cyan-500  outline  text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in duration-2'>
+              className='font-plusJakartaSans  py-3 px-14 text-cyan-500  outline  text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in duration-2'>
               Login
             </a>
           </div>
