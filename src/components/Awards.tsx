@@ -37,7 +37,7 @@ const awardees = [
     bgColor: 'bg-award5',
   },
   {
-    text: 'Top performer spring 2021',
+    text: 'Top performer spring',
     text1: '2021',
     imageUrl: award6,
     bgColor: 'bg-award6',
