@@ -22,17 +22,13 @@ const navigation1 = [
 const navigation2 = [
   { name: 'Company', href: '#' },
   { name: 'Contacts', href: '#' },
-  {
-    name: ' Login',
-    href: '#',
-  },
 ];
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white font-plusJakartaSans'>
       <header className='absolute inset-x-0 top-0 z-50'>
         <nav
           className='bg-white flex items-center justify-center p-6 lg:px-8'
@@ -51,7 +47,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className='text-sm font-semibold leading-6 text-gray-900'>
+                className='text-sm font-semibold leading-6 py-2 text-gray-900'>
                 {item.name}
               </a>
             ))}
@@ -65,14 +61,15 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-semibold leading-6 text-gray-900 ${
-                  item.name === 'Login'
-                    ? 'bg-amber-700 pa outline-double outline-2 outline-blue-500'
-                    : ''
-                }`}>
+                className={`text-sm  py-2 font-semibold leading-6 text-gray-900`}>
                 {item.name}
               </a>
             ))}
+            <a
+              href='#'
+              className='font-plusJakartaSans  py-2 px-14 text-cyan-500  outline  text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in duration-2'>
+              Login
+            </a>
           </div>
         </nav>
         <Dialog
@@ -114,6 +111,11 @@ export default function Navbar() {
                       {item.name}
                     </a>
                   ))}
+                  <a
+                    href='#'
+                    className='font-plusJakartaSans inline-block  py-2  px-14 text-cyan-500  outline  text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in duration-2'>
+                    Login
+                  </a>
                 </div>
               </div>
             </div>

@@ -97,7 +97,7 @@ const Testimony = () => {
                   <div className=''>
                     <a
                       href='#'
-                      className='text-cyan-500  outline px-3.5 py-2.5 text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in'>
+                      className='text-cyan-500  outline px-3.5 py-2.5 text-sm font-semibold  shadow-sm hover:bg-cyan-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-cyan-500 hover:text-white ease-in duration-2'>
                       Schedule a consultation
                     </a>
                   </div>
