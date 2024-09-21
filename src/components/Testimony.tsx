@@ -44,7 +44,7 @@ const Testimony = () => {
                     />
                   </svg>
                 </div>
-                <div className='absolute inset-56'>
+                <div className='absolute inset-56 hidden'>
                   <div className='bg-[#EDFEFF] w-full'>
                     <img src={paypal} alt='paypal' />
                     <p className='text-base font-plusJakartaSans leading-8 text-[#676767] w-[359px] my-5 '>
